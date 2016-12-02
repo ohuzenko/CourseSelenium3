@@ -10,6 +10,10 @@
     <modelVersion>4.0.0</modelVersion>
 
     <artifactId>lesson02</artifactId>
+    <packaging>pom</packaging>
+    <modules>
+        <module>../lesson04</module>
+    </modules>
 
     <dependencies>
     <dependency>
