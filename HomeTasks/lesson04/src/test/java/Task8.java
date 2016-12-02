@@ -48,7 +48,7 @@ public class Task8 {
         List<WebElement> mainPageGoods = driver.findElements(By.cssSelector("ul.listing-wrapper.products>li>a.link>div.image-wrapper"));
 
         for(WebElement item : mainPageGoods) {
-            Assert.assertEquals( item.findElements(By.cssSelector("div[class ^= sticker]")).size(),1);
+            Assert.assertEquals( item.findElements(By.cssSelector("div[class ^= sticker]")).size(),1,"Incorrect stickers amount on the main page");
         }
     }
 
