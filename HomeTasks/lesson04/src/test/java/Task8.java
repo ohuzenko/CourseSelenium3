@@ -11,8 +11,7 @@ import org.testng.annotations.Test;
 
 import java.util.List;
 
-import static org.openqa.selenium.support.ui.ExpectedConditions.titleContains;
-import static org.openqa.selenium.support.ui.ExpectedConditions.titleIs;
+
 
 /**
  * Created by ohuzenko on 12/2/2016.
