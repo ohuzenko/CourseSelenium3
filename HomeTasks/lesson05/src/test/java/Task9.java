@@ -102,7 +102,7 @@ public class Task9 {
 
        for(String link : multiZonesLinks) {
 
-            checkZoneOrder(link, ">select>option[selected]", "innerText");
+            checkZoneOrder(link, ">select option[selected]", "innerText");
         }
 
     }
