@@ -85,8 +85,8 @@
       <file leaf-file-name="Task9.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/lesson05/src/test/java/Task9.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-242">
-              <caret line="100" column="8" lean-forward="true" selection-start-line="100" selection-start-column="8" selection-end-line="100" selection-end-column="8" />
+            <state relative-caret-position="438">
+              <caret line="155" column="0" lean-forward="true" selection-start-line="155" selection-start-column="0" selection-end-line="155" selection-end-column="0" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -773,9 +773,6 @@
     <history-entry file="Task9 - 2016.12.04 at 01h 16m 57s.xml">
       <configuration name="Task9" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="Task9_checkCountriesTomeZonesOrderInAdminGeoZonesPage - 2016.12.04 at 01h 16m 21s.xml">
-      <configuration name="Task9.checkCountriesTomeZonesOrderInAdminGeoZonesPage" configurationId="TestNG" />
-    </history-entry>
     <history-entry file="Task9_checkCountriesTomeZonesOrderInAdminGeoZonesPage - 2016.12.04 at 03h 27m 44s.xml">
       <configuration name="Task9.checkCountriesTomeZonesOrderInAdminGeoZonesPage" configurationId="TestNG" />
     </history-entry>
@@ -792,6 +789,9 @@
       <configuration name="Task9.checkCountriesTomeZonesOrderInAdminGeoZonesPage" configurationId="TestNG" />
     </history-entry>
     <history-entry file="Task9_checkCountriesTomeZonesOrderInAdminGeoZonesPage - 2016.12.04 at 03h 49m 54s.xml">
+      <configuration name="Task9.checkCountriesTomeZonesOrderInAdminGeoZonesPage" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="Task9_checkCountriesTomeZonesOrderInAdminGeoZonesPage - 2016.12.04 at 03h 53m 36s.xml">
       <configuration name="Task9.checkCountriesTomeZonesOrderInAdminGeoZonesPage" configurationId="TestNG" />
     </history-entry>
   </component>
@@ -1060,8 +1060,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/lesson05/src/test/java/Task9.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-242">
-          <caret line="100" column="8" lean-forward="true" selection-start-line="100" selection-start-column="8" selection-end-line="100" selection-end-column="8" />
+        <state relative-caret-position="438">
+          <caret line="155" column="0" lean-forward="true" selection-start-line="155" selection-start-column="0" selection-end-line="155" selection-end-column="0" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>

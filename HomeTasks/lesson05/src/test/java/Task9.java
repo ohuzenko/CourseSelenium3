@@ -122,7 +122,7 @@ public class Task9 {
         String tmp = "";
         for(WebElement current : rows) {
             currentValue = getColumnValueByAttribute(current, column, suffix, attribute);
-            Assert.assertTrue(tmp.compareTo(currentValue) < 0 , "The order is wrong: " + tmp + " before " + currentValue );
+            Assert.assertTrue(tmp.compareTo(currentValue) <= 0 , "The order is wrong: " + tmp + " before " + currentValue );
             tmp = currentValue;
 
         }
