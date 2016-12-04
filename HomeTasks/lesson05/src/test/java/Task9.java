@@ -11,7 +11,7 @@ import org.testng.annotations.Test;
 
 import java.util.ArrayList;
 import java.util.List;
-import java.util.StringJoiner;
+
 
 import static org.openqa.selenium.support.ui.ExpectedConditions.titleIs;
 
@@ -60,9 +60,6 @@ public class Task9 {
     @Test
     public void checkCountriesOrderInAdminCountriesPage() {
         driver.get("http://localhost/litecart/admin/?app=countries&doc=countries");
-        String tmp = "";
-        String currentCountryName;
-
 
         List<WebElement> countries = driver.findElements(By.cssSelector("table.dataTable tr.row"));
 
