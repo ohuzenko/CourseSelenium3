@@ -50,7 +50,7 @@ public class Task14 extends Task14Base {
     private void checkLink(String currentWindow, Set<String> openedWindows, WebElement link) {
         link.click();
         String newWindow = wait.until(otherWindowIsOpened(openedWindows));
-        Assert.assertFalse(currentWindow.equals(newWindow), "Link " + link.getAttribute("href") + " is opened in the same window");
+
         driver.switchTo().window(newWindow);
         driver.close();
         driver.switchTo().window(currentWindow);
