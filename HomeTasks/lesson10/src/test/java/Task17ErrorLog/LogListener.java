@@ -7,7 +7,7 @@ import org.openqa.selenium.support.events.AbstractWebDriverEventListener;
 import java.util.List;
 
 /**
- * Created by sunny_IT on 12/15/2016.
+ * Created by ohuzenko on 12/15/2016.
  */
 public class LogListener extends AbstractWebDriverEventListener {
     @Override
