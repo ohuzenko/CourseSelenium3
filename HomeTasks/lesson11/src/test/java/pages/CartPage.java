@@ -26,7 +26,7 @@ public class CartPage extends Page {
     private By rowsInOrder = By.cssSelector("table.dataTable.rounded-corners tr:not(.header)");
     private By productShortcuts = By.cssSelector("ul.shortcuts > li.shortcut > a.act");
     private By removeProductButton = By.cssSelector("li.item > form[name=cart_form]  div  p > button[name=remove_cart_item]");
-
+    private By productQuantity = By.cssSelector("header#header div#cart-wrapper div#cart span.quantity");
 
 
     public CartPage open() {
@@ -44,6 +44,9 @@ public class CartPage extends Page {
 
     }
 
+    public WebElement getProductQuantity() {
+      return  find(productQuantity);
+    }
 
     public int getNumberOfRowsInCart() {
 

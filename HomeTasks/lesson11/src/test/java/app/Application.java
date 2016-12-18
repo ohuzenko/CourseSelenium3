@@ -2,7 +2,6 @@ package app;
 
 import data.TestData;
 import model.Cart;
-import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.chrome.ChromeDriver;
@@ -59,11 +58,9 @@ public class Application {
 
     private void verifyCartCounterFromProductDetailPage() {
 
-        homePage.getWait().until((WebDriver d) -> {
+        cartPage.getWait().until((WebDriver d) -> {
 
-            int quantity = Integer.parseInt(d.findElement(By
-                    .cssSelector("header#header div#cart-wrapper div#cart span.quantity"))
-                    .getAttribute("innerText"));
+            int quantity = Integer.parseInt(cartPage.getProductQuantity().getAttribute("innerText"));
             return quantity == cart.getNumberOfProductsInCart();
         });
     }
